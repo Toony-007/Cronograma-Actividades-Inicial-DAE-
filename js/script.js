@@ -2,7 +2,7 @@
 const cronogramaData = [
     {
         semana: 1,
-        fechas: "8 - 12 de Septiembre",
+        fechas: "8 - 12 de Septiembre 2025",
         fase: "Inmersión y Análisis",
         tareas: [
             "Analizar la presentación del 'Proyecto Respuestas Tipo con IA'.",
@@ -19,7 +19,7 @@ const cronogramaData = [
     },
     {
         semana: 2,
-        fechas: "15 - 19 de Septiembre",
+        fechas: "15 - 19 de Septiembre 2025",
         fase: "Inmersión y Análisis",
         tareas: [
             "Configurar el entorno en Google Colab para cargar y ejecutar el código.",
@@ -37,7 +37,7 @@ const cronogramaData = [
     },
     {
         semana: 3,
-        fechas: "22 - 26 de Septiembre",
+        fechas: "22 - 26 de Septiembre 2025",
         fase: "Inmersión y Análisis",
         tareas: [
             "Investigar los nuevos formatos y reglas de consulta.",
@@ -53,11 +53,11 @@ const cronogramaData = [
     },
     {
         semana: 4,
-        fechas: "29 de Sep - 3 de Oct",
+        fechas: "29 de Sep - 3 de Oct 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Redactar una propuesta de alcance basada en la matriz de brechas.",
-            "Definir objetivos SMART para el proyecto hasta el 30 de noviembre."
+            "Definir objetivos SMART para el proyecto hasta el 30 de noviembre de 2025."
         ],
         entregable: {
             titulo: "Borrador del Alcance del Proyecto:",
@@ -68,7 +68,7 @@ const cronogramaData = [
     },
     {
         semana: 5,
-        fechas: "6 - 10 de Octubre",
+        fechas: "6 - 10 de Octubre 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Diseñar plantillas para la documentación técnica y de usuario.",
@@ -86,7 +86,7 @@ const cronogramaData = [
     },
     {
         semana: 6,
-        fechas: "14 - 17 de Octubre",
+        fechas: "14 - 17 de Octubre 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Crear un diagrama de arquitectura para el nuevo flujo de datos.",
@@ -101,7 +101,7 @@ const cronogramaData = [
     },
     {
         semana: 7,
-        fechas: "20 - 24 de Octubre",
+        fechas: "20 - 24 de Octubre 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Realizar ajustes a los documentos de planificación según la retroalimentación.",
@@ -116,7 +116,7 @@ const cronogramaData = [
     },
     {
         semana: 8,
-        fechas: "27 - 31 de Octubre",
+        fechas: "27 - 31 de Octubre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Escribir y probar el script de conexión a la base de datos misional.",
@@ -132,7 +132,7 @@ const cronogramaData = [
     },
     {
         semana: 9,
-        fechas: "4 - 7 de Noviembre",
+        fechas: "4 - 7 de Noviembre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Modificar el código para que procese datos desde la BD.",
@@ -148,7 +148,7 @@ const cronogramaData = [
     },
     {
         semana: 10,
-        fechas: "10 - 14 de Noviembre",
+        fechas: "10 - 14 de Noviembre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Ejecutar el proceso completo: consulta a BD, procesamiento y generación de respuesta.",
@@ -164,7 +164,7 @@ const cronogramaData = [
     },
     {
         semana: 11,
-        fechas: "18 - 21 de Noviembre",
+        fechas: "18 - 21 de Noviembre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Priorizar y corregir los errores reportados en las pruebas.",
@@ -180,7 +180,7 @@ const cronogramaData = [
     },
     {
         semana: 12,
-        fechas: "24 - 28 de Noviembre",
+        fechas: "24 - 28 de Noviembre 2025",
         fase: "Entrega Final",
         tareas: [
             "Realizar una última revisión y validación del código y la documentación.",

@@ -1,0 +1,74 @@
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| Semana | Rango de Fechas        | Fase del Proyecto         | Tareas Detalladas                                         | Entregable Semanal / Hito                                 |
++========+========================+===========================+===========================================================+===========================================================+
+| 1      | 8 - 12 de Septiembre   | Inmersión y Análisis      | • Analizar la presentación del "Proyecto Respuestas        | Documento de Entendimiento Inicial:                       |
+|        |                        |                           |   Tipo con IA".                  | 1. Resumen de tu comprensión del problema.                |
+|        |                        |                           | • Estudiar a fondo la documentación funcional entregada.  | 2. Listado consolidado de dudas iniciales.                |
+|        |                        |                           | • Revisar la grabación de la explicación del código       |                                                           |
+|        |                        |                           |  .                    |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 2      | 15 - 19 de Septiembre  | Inmersión y Análisis      | • Configurar el entorno en Google Colab para cargar       | Informe de Análisis de Código:                            |
+|        |                        |                           |   y ejecutar el código.| 1. Diagrama de flujo del código.                          |
+|        |                        |                           | • Analizar el código: identificar librerías, funciones y  | 2. Observaciones sobre la estructura.                     |
+|        |                        |                           |   lógica principal.                                       | 3. Listado de preguntas técnicas específicas.             |
+|        |                        |                           | • Documentar el flujo de datos dentro del script          |                                                           |
+|        |                        |                           |  .                    |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 3      | 22 - 26 de Septiembre  | Inmersión y Análisis      | • Investigar los nuevos formatos y reglas de consulta     | Matriz de Brechas (Gap Analysis):                         |
+|        |                        |                           |  .                    | Tabla comparando "Funcionamiento POC" vs.                 |
+|        |                        |                           | • Contrastar el funcionamiento de la POC con los          | "Requerimiento Actual".                                   |
+|        |                        |                           |   requerimientos vigentes.|                                                           |
+|        |                        |                           | • Elaborar un listado detallado de las divergencias.      |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 4      | 29 de Sep - 3 de Oct   | Planificación y Definición| • Redactar una propuesta de alcance basada en la          | Borrador del Alcance del Proyecto:                        |
+|        |                        |                           |   matriz de brechas.                                      | Documento formal para revisión, detallando las metas      |
+|        |                        |                           | • Definir objetivos SMART para el proyecto hasta el       | de la implementación. |
+|        |                        |                           |   30 de noviembre.    |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 5      | 6 - 10 de Octubre      | Planificación y Definición| • Diseñar plantillas para la documentación técnica y      | Plan de Documentación y Pruebas:                          |
+|        |                        |                           |   de usuario.                                             | 1. Índice y estructura de los documentos a generar        |
+|        |                        |                           | • Definir indicadores de éxito para medir la precisión    |   .                   |
+|        |                        |                           |   del modelo.         | 2. Métricas de evaluación.                                |
+|        |                        |                           | • Esbozar un plan de pruebas básico.| 3. Listado inicial de casos de prueba.|
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 6      | 14 - 17 de Octubre     | Planificación y Definición| • Crear un diagrama de arquitectura para el nuevo flujo   | Diagrama de Arquitectura y Mockup:                        |
+|        |                        |                           |   de datos.                                               | Documento visual con el diseño técnico y la propuesta     |
+|        |                        |                           | • Diseñar un mockup simple de la interfaz de usuario      | de interfaz.                                              |
+|        |                        |                           |   (el "front").       |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 7      | 20 - 24 de Octubre     | Planificación y Definición| • Realizar ajustes a los documentos de planificación      | HITO 1: Paquete de Documentación de Planificación:        |
+|        |                        |                           |   según la retroalimentación.                             | Entrega formal de todos los documentos de la Fase 2       |
+|        |                        |                           | • Organizar y empaquetar toda la documentación de         |.                      |
+|        |                        |                           |   la fase.            |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 8      | 27 - 31 de Octubre     | Desarrollo y Pruebas      | • Escribir y probar el script de conexión a la base de    | Módulo de Conexión a BD:                                  |
+|        |                        |                           |   datos misional.                                         | Archivo .py funcional y documentado para la conexión.     |
+|        |                        |                           | • Implementar las consultas SQL necesarias para la        |                                                           |
+|        |                        |                           |   extracción de datos.                                    |                                                           |
+|        |                        |                           | • Realizar pruebas unitarias de la conexión.              |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 9      | 4 - 7 de Noviembre     | Desarrollo y Pruebas      | • Modificar el código para que procese datos desde la BD  | Avance de Código y Documentación Técnica:                 |
+|        |                        |                           |  .                    | Versión actualizada del código y borrador de su           |
+|        |                        |                           | • Actualizar la lógica de generación de respuestas según  | documentación.                                            |
+|        |                        |                           |   nuevos formatos.                                        |                                                           |
+|        |                        |                           | • Iniciar la documentación técnica de los nuevos módulos. |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 10     | 10 - 14 de Noviembre   | Desarrollo y Pruebas      | • Ejecutar el proceso completo: consulta a BD,            | Informe de Resultados de Pruebas:                         |
+|        |                        |                           |   procesamiento y generación de respuesta.                | Documento con resultados, capturas de pantalla de         |
+|        |                        |                           | • Utilizar los casos de prueba definidos para validar el  | errores y lista de bugs.                                  |
+|        |                        |                           |   funcionamiento.                                         |                                                           |
+|        |                        |                           | • Registrar y clasificar todos los bugs encontrados.      |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 11     | 18 - 21 de Noviembre   | Desarrollo y Pruebas      | • Priorizar y corregir los errores reportados en las      | Versión Estable del Código y Documentación Completa:      |
+|        |                        |                           |   pruebas.                                                | Código corregido y borradores finales de la               |
+|        |                        |                           | • Finalizar la redacción de la documentación técnica      | documentación.                                            |
+|        |                        |                           |  .                    |                                                           |
+|        |                        |                           | • Redactar la primera versión completa de la guía de      |                                                           |
+|        |                        |                           |   usuario.                                                |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+
+| 12     | 24 - 28 de Noviembre   | Entrega Final             | • Realizar una última revisión y validación del código    | HITO 2: Paquete Final de Entrega:                         |
+|        |                        |                           |   y la documentación.                                     | Carpeta comprimida con el código fuente, documentación    |
+|        |                        |                           | • Organizar el trabajo en una estructura de carpetas      | y presentación de resultados.|
+|        |                        |                           |   limpia.                                                 |                                                           |
+|        |                        |                           | • Preparar una breve presentación o demo de los avances.  |                                                           |
++--------+------------------------+---------------------------+-----------------------------------------------------------+-----------------------------------------------------------+

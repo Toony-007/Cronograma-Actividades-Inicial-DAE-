@@ -3,64 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronograma de Prácticas 2025 - Antony Stiven Salcedo Rodriguez</title>
+    <title>Cronograma de Prácticas - Proyecto IA</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1>Cronograma de Prácticas Profesionales 2025</h1>
-            <div class="info-section">
-                <div class="student-info">
-                    <h2>Estudiante</h2>
-                    <p><strong>Antony Stiven Salcedo Rodriguez</strong></p>
-                </div>
-                <div class="supervisor-info">
-                    <h2>Ingenieros Encargados</h2>
-                    <p><strong>Angie Paola Cuellar Olano</strong></p>
-                    <p><strong>Ernesto Stiven Roa Patiño</strong></p>
-                </div>
+            <div class="header-content">
+                <h1><i class="fas fa-calendar-alt"></i> Cronograma de Prácticas</h1>
+                <p>Proyecto Respuestas Tipo con IA - Septiembre a Noviembre 2024</p>
             </div>
         </header>
 
-        <main class="main-content">
-            <div class="controls">
-                <button id="toggleView" class="btn-toggle">Vista Compacta</button>
-                <input type="text" id="searchInput" placeholder="Buscar en el cronograma..." class="search-input">
-            </div>
-
-            <div class="timeline-container">
-                <div id="cronograma" class="cronograma-table"></div>
+        <nav class="view-controls">
+            <div class="control-group">
+                <button class="view-btn active" data-view="table">
+                    <i class="fas fa-table"></i> Vista Tabla
+                </button>
+                <button class="view-btn" data-view="timeline">
+                    <i class="fas fa-project-diagram"></i> Línea de Tiempo
+                </button>
+                <button class="view-btn" data-view="gantt">
+                    <i class="fas fa-chart-bar"></i> Gantt
+                </button>
+                <button class="view-btn" data-view="calendar">
+                    <i class="fas fa-calendar"></i> Calendario
+                </button>
             </div>
             
-            <div class="stats-section">
-                <div class="stat-card">
-                    <div class="stat-icon">📅</div>
-                    <div class="stat-info">
-                        <h3>12 Semanas</h3>
-                        <p>Duración Total</p>
+            <div class="filter-group">
+                <select id="phaseFilter" class="filter-select">
+                    <option value="all">Todas las Fases</option>
+                    <option value="Inmersión y Análisis">Inmersión y Análisis</option>
+                    <option value="Planificación y Definición">Planificación y Definición</option>
+                    <option value="Desarrollo y Pruebas">Desarrollo y Pruebas</option>
+                    <option value="Entrega Final">Entrega Final</option>
+                    <option value="Seguimiento DAE y SIMBOT">Seguimiento DAE y SIMBOT</option>
+                </select>
+                
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Buscar tareas...">
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <!-- Vista Tabla -->
+            <div id="tableView" class="view-container active">
+                <div class="table-wrapper">
+                    <table class="cronograma-table">
+                        <thead>
+                            <tr>
+                                <th>Semana</th>
+                                <th>Fechas</th>
+                                <th>Fase</th>
+                                <th>Tareas</th>
+                                <th>Entregables</th>
+                                <th>Progreso</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Contenido generado dinámicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Vista Línea de Tiempo -->
+            <div id="timelineView" class="view-container">
+                <div class="timeline-wrapper">
+                    <div class="timeline-container" id="timelineContainer">
+                        <!-- Contenido generado dinámicamente -->
                     </div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-icon">🎯</div>
-                    <div class="stat-info">
-                        <h3>4 Fases</h3>
-                        <p>Etapas del Proyecto</p>
+            </div>
+
+            <!-- Vista Gantt -->
+            <div id="ganttView" class="view-container">
+                <div class="gantt-wrapper">
+                    <div class="gantt-header">
+                        <div class="gantt-months" id="ganttMonths"></div>
+                        <div class="gantt-weeks" id="ganttWeeks"></div>
+                    </div>
+                    <div class="gantt-body" id="ganttBody">
+                        <!-- Contenido generado dinámicamente -->
                     </div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-icon">📋</div>
-                    <div class="stat-info">
-                        <h3>2 Hitos</h3>
-                        <p>Entregas Principales</p>
+            </div>
+
+            <!-- Vista Calendario -->
+            <div id="calendarView" class="view-container">
+                <div class="calendar-wrapper">
+                    <div class="calendar-header">
+                        <button id="prevMonth" class="calendar-nav"><i class="fas fa-chevron-left"></i></button>
+                        <h3 id="currentMonth">Septiembre 2024</h3>
+                        <button id="nextMonth" class="calendar-nav"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="calendar-grid" id="calendarGrid">
+                        <!-- Contenido generado dinámicamente -->
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer class="footer">
-            <p>&copy; 2025 - Cronograma de Prácticas Profesionales</p>
-        </footer>
+        <!-- Modal para detalles -->
+        <div id="detailModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalBody">
+                    <!-- Contenido del modal -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel de estadísticas -->
+        <aside class="stats-panel">
+            <h3><i class="fas fa-chart-pie"></i> Estadísticas</h3>
+            <div class="stat-item">
+                <span class="stat-label">Total Semanas:</span>
+                <span class="stat-value" id="totalWeeks">16</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Fases:</span>
+                <span class="stat-value" id="totalPhases">5</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Progreso:</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="overallProgress"></div>
+                </div>
+                <span class="stat-value" id="progressPercent">0%</span>
+            </div>
+        </aside>
     </div>
 
     <script src="js/script.js"></script>

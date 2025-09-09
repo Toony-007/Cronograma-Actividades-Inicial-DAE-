@@ -2,7 +2,7 @@
 const cronogramaData = [
     {
         semana: "1",
-        fechas: "8 - 12 de Septiembre",
+        fechas: "8 - 12 de Septiembre 2025",
         fase: "Inmersión y Análisis",
         tareas: [
             "Analizar presentación del 'Proyecto Respuestas Tipo con IA'",
@@ -14,7 +14,7 @@ const cronogramaData = [
     },
     {
         semana: "2",
-        fechas: "15 - 19 de Septiembre",
+        fechas: "15 - 19 de Septiembre 2025",
         fase: "Inmersión y Análisis",
         tareas: [
             "Configurar entorno en Google Colab",
@@ -26,7 +26,7 @@ const cronogramaData = [
     },
     {
         semana: "3",
-        fechas: "22 - 26 de Septiembre",
+        fechas: "22 - 26 de Septiembre 2025",
         fase: "Inmersión y Análisis",
         tareas: [
             "Investigar nuevos formatos y reglas de consulta",
@@ -38,7 +38,7 @@ const cronogramaData = [
     },
     {
         semana: "4",
-        fechas: "29 Sep - 3 Oct",
+        fechas: "29 Sep - 3 Oct 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Redactar propuesta de alcance basada en matriz de brechas",
@@ -49,7 +49,7 @@ const cronogramaData = [
     },
     {
         semana: "V-4",
-        fechas: "Viernes 3 de Octubre",
+        fechas: "Viernes 3 de Octubre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo de la página DAE y chatbot SIMBOT para la semana"
@@ -59,7 +59,7 @@ const cronogramaData = [
     },
     {
         semana: "5",
-        fechas: "6 - 10 de Octubre",
+        fechas: "6 - 10 de Octubre 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Diseñar plantillas para documentación técnica y usuario",
@@ -71,7 +71,7 @@ const cronogramaData = [
     },
     {
         semana: "V-5",
-        fechas: "Viernes 10 Octubre",
+        fechas: "Viernes 10 Octubre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -81,7 +81,7 @@ const cronogramaData = [
     },
     {
         semana: "6",
-        fechas: "14 - 17 de Octubre",
+        fechas: "14 - 17 de Octubre 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Crear diagrama de arquitectura para flujo de datos",
@@ -92,7 +92,7 @@ const cronogramaData = [
     },
     {
         semana: "V-6",
-        fechas: "Viernes 17 Octubre",
+        fechas: "Viernes 17 Octubre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -102,7 +102,7 @@ const cronogramaData = [
     },
     {
         semana: "7",
-        fechas: "20 - 24 de Octubre",
+        fechas: "20 - 24 de Octubre 2025",
         fase: "Planificación y Definición",
         tareas: [
             "Ajustes a documentos por retroalimentación",
@@ -113,7 +113,7 @@ const cronogramaData = [
     },
     {
         semana: "V-7",
-        fechas: "Viernes 24 Octubre",
+        fechas: "Viernes 24 Octubre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -123,7 +123,7 @@ const cronogramaData = [
     },
     {
         semana: "8",
-        fechas: "27 - 31 de Octubre",
+        fechas: "27 - 31 de Octubre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Escribir y probar script de conexión a BD",
@@ -135,7 +135,7 @@ const cronogramaData = [
     },
     {
         semana: "V-8",
-        fechas: "Viernes 31 Octubre",
+        fechas: "Viernes 31 Octubre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -145,7 +145,7 @@ const cronogramaData = [
     },
     {
         semana: "9",
-        fechas: "4 - 7 de Noviembre",
+        fechas: "4 - 7 de Noviembre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Modificar código para datos desde BD",
@@ -157,7 +157,7 @@ const cronogramaData = [
     },
     {
         semana: "V-9",
-        fechas: "Viernes 7 de Noviembre",
+        fechas: "Viernes 7 de Noviembre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -167,7 +167,7 @@ const cronogramaData = [
     },
     {
         semana: "10",
-        fechas: "10 - 14 de Noviembre",
+        fechas: "10 - 14 de Noviembre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Pruebas integrales del flujo completo: consulta BD, procesamiento y respuesta",
@@ -179,7 +179,7 @@ const cronogramaData = [
     },
     {
         semana: "V-10",
-        fechas: "Viernes 14 Noviembre",
+        fechas: "Viernes 14 Noviembre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -189,7 +189,7 @@ const cronogramaData = [
     },
     {
         semana: "11",
-        fechas: "18 - 21 de Noviembre",
+        fechas: "18 - 21 de Noviembre 2025",
         fase: "Desarrollo y Pruebas",
         tareas: [
             "Corrección y priorización de errores reportados",
@@ -201,7 +201,7 @@ const cronogramaData = [
     },
     {
         semana: "V-11",
-        fechas: "Viernes 21 Noviembre",
+        fechas: "Viernes 21 Noviembre 2025",
         fase: "Seguimiento DAE y SIMBOT",
         tareas: [
             "Seguimiento y desarrollo página DAE y chatbot SIMBOT"
@@ -211,7 +211,7 @@ const cronogramaData = [
     },
     {
         semana: "12",
-        fechas: "24 - 28 de Noviembre",
+        fechas: "24 - 28 de Noviembre 2025",
         fase: "Entrega Final",
         tareas: [
             "Revisión y validación final código y documentación",
@@ -227,7 +227,7 @@ const cronogramaData = [
 let currentView = 'table';
 let filteredData = [...cronogramaData];
 let currentMonth = 8; // Septiembre (0-indexed)
-let currentYear = 2024;
+let currentYear = 2025;
 
 // Mapeo de fases a clases CSS
 const phaseClasses = {
@@ -237,6 +237,35 @@ const phaseClasses = {
     'Entrega Final': 'phase-entrega',
     'Seguimiento DAE y SIMBOT': 'phase-seguimiento'
 };
+
+// ========================================
+// CONFIGURACIÓN DE PORCENTAJES POR SEMANA
+// ========================================
+// Aquí puedes modificar fácilmente el porcentaje de progreso de cada semana
+// Solo cambia el número después de "progreso:" para cada semana
+const weeklyProgress = {
+    "1": { progreso: 0 },   // Semana 1: 100% de progreso
+    "2": { progreso: 0 },  // Semana 2: 100% de progreso
+    "3": { progreso: 0 },  // Semana 3: 100% de progreso
+    "4": { progreso: 0 },   // Semana 4: 85% de progreso
+    "V-4": { progreso: 0 }, // Viernes 4: 90% de progreso
+    "5": { progreso: 0 },   // Semana 5: 75% de progreso
+    "V-5": { progreso: 0 }, // Viernes 5: 80% de progreso
+    "6": { progreso: 0 },   // Semana 6: 60% de progreso
+    "V-6": { progreso: 0 }, // Viernes 6: 70% de progreso
+    "7": { progreso: 0 },   // Semana 7: 50% de progreso
+    "V-7": { progreso: 0 }, // Viernes 7: 60% de progreso
+    "8": { progreso: 0 },   // Semana 8: 40% de progreso
+    "V-8": { progreso: 0 }, // Viernes 8: 50% de progreso
+    "9": { progreso: 0 },   // Semana 9: 30% de progreso
+    "V-9": { progreso: 0 }, // Viernes 9: 40% de progreso
+    "10": { progreso: 0 },  // Semana 10: 20% de progreso
+    "V-10": { progreso: 0 },// Viernes 10: 30% de progreso
+    "11": { progreso: 0 },  // Semana 11: 10% de progreso
+    "V-11": { progreso: 0 },// Viernes 11: 20% de progreso
+    "12": { progreso: 0 }    // Semana 12: 0% de progreso
+};
+// ========================================
 
 // Inicialización
 document.addEventListener('DOMContentLoaded', function() {
@@ -251,10 +280,14 @@ function initializeApp() {
 }
 
 function setupEventListeners() {
-    // Botones de vista
+    // Botones de vista (calendario removido)
     document.querySelectorAll('.view-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-            switchView(this.dataset.view);
+            const view = this.dataset.view;
+            // Solo permitir vistas válidas (sin calendario)
+            if (['table', 'timeline', 'gantt'].includes(view)) {
+                switchView(view);
+            }
         });
     });
 
@@ -268,14 +301,7 @@ function setupEventListeners() {
         searchTasks(this.value);
     });
 
-    // Navegación del calendario
-    document.getElementById('prevMonth').addEventListener('click', () => {
-        navigateMonth(-1);
-    });
-    
-    document.getElementById('nextMonth').addEventListener('click', () => {
-        navigateMonth(1);
-    });
+
 
     // Modal
     document.querySelector('.close').addEventListener('click', closeModal);
@@ -296,7 +322,7 @@ function switchView(view) {
         container.classList.remove('active');
     });
 
-    // Mostrar vista seleccionada
+    // Mostrar vista seleccionada (calendario removido)
     document.getElementById(`${view}View`).classList.add('active');
     
     currentView = view;
@@ -314,9 +340,7 @@ function renderCurrentView() {
         case 'gantt':
             renderGanttView();
             break;
-        case 'calendar':
-            renderCalendarView();
-            break;
+        // Calendario removido según solicitud del usuario
     }
 }
 
@@ -335,6 +359,9 @@ function renderTableView() {
             row.classList.add('current-week');
         }
 
+        // Usar progreso de configuración weeklyProgress (permitir 0%)
+        const progressValue = weeklyProgress[item.semana]?.progreso !== undefined ? weeklyProgress[item.semana].progreso : item.progreso;
+
         row.innerHTML = `
             <td class="week-cell">
                 <div class="week-number">${item.semana}</div>
@@ -352,9 +379,9 @@ function renderTableView() {
             <td class="deliverable-cell">${item.entregable}</td>
             <td class="progress-cell">
                 <div class="progress-bar">
-                    <div class="progress-fill" style="width: ${item.progreso}%"></div>
+                    <div class="progress-fill" style="width: ${progressValue}%"></div>
                 </div>
-                <span>${item.progreso}%</span>
+                <span>${progressValue}%</span>
             </td>
         `;
 
@@ -389,9 +416,9 @@ function renderTimelineView() {
                 </div>
                 <div class="progress-section">
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: ${item.progreso}%"></div>
+                        <div class="progress-fill" style="width: ${weeklyProgress[item.semana]?.progreso !== undefined ? weeklyProgress[item.semana].progreso : item.progreso}%"></div>
                     </div>
-                    <span>Progreso: ${item.progreso}%</span>
+                    <span>Progreso: ${weeklyProgress[item.semana]?.progreso !== undefined ? weeklyProgress[item.semana].progreso : item.progreso}%</span>
                 </div>
             </div>
         `;
@@ -429,6 +456,8 @@ function renderGanttView() {
 
         const weekPosition = getWeekPosition(item.semana);
         const barColor = getPhaseColor(item.fase);
+        // Usar progreso de configuración weeklyProgress (permitir 0%)
+        const progressValue = weeklyProgress[item.semana]?.progreso !== undefined ? weeklyProgress[item.semana].progreso : item.progreso;
 
         row.innerHTML = `
             <div class="gantt-label" style="min-width: 200px; padding-right: 20px;">
@@ -441,7 +470,7 @@ function renderGanttView() {
                 margin-left: ${weekPosition}%;
             ">
                 <span style="color: white; padding: 0 10px; font-size: 12px;">
-                    ${item.progreso}%
+                    ${progressValue}%
                 </span>
             </div>
         `;
@@ -451,67 +480,7 @@ function renderGanttView() {
     });
 }
 
-function renderCalendarView() {
-    const calendarGrid = document.getElementById('calendarGrid');
-    const currentMonthElement = document.getElementById('currentMonth');
-    
-    const monthNames = [
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-    ];
-    
-    currentMonthElement.textContent = `${monthNames[currentMonth]} ${currentYear}`;
-    
-    // Limpiar grid
-    calendarGrid.innerHTML = '';
-    
-    // Días de la semana
-    const dayNames = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
-    dayNames.forEach(day => {
-        const dayHeader = document.createElement('div');
-        dayHeader.className = 'calendar-day-header';
-        dayHeader.textContent = day;
-        dayHeader.style.fontWeight = 'bold';
-        dayHeader.style.textAlign = 'center';
-        dayHeader.style.padding = '10px';
-        calendarGrid.appendChild(dayHeader);
-    });
-    
-    // Obtener primer día del mes y número de días
-    const firstDay = new Date(currentYear, currentMonth, 1).getDay();
-    const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
-    
-    // Días vacíos al inicio
-    for (let i = 0; i < firstDay; i++) {
-        const emptyDay = document.createElement('div');
-        emptyDay.className = 'calendar-day empty';
-        calendarGrid.appendChild(emptyDay);
-    }
-    
-    // Días del mes
-    for (let day = 1; day <= daysInMonth; day++) {
-        const dayElement = document.createElement('div');
-        dayElement.className = 'calendar-day';
-        dayElement.textContent = day;
-        
-        // Verificar si hay tareas en este día
-        const hasTask = filteredData.some(item => {
-            return isDateInRange(day, currentMonth, currentYear, item.fechas);
-        });
-        
-        if (hasTask) {
-            dayElement.classList.add('has-task');
-            dayElement.addEventListener('click', () => {
-                const tasksForDay = filteredData.filter(item => 
-                    isDateInRange(day, currentMonth, currentYear, item.fechas)
-                );
-                showDayDetails(day, tasksForDay);
-            });
-        }
-        
-        calendarGrid.appendChild(dayElement);
-    }
-}
+
 
 function filterByPhase(phase) {
     if (phase === 'all') {
@@ -538,21 +507,14 @@ function searchTasks(query) {
     updateStats();
 }
 
-function navigateMonth(direction) {
-    currentMonth += direction;
-    if (currentMonth > 11) {
-        currentMonth = 0;
-        currentYear++;
-    } else if (currentMonth < 0) {
-        currentMonth = 11;
-        currentYear--;
-    }
-    renderCalendarView();
-}
+
 
 function showDetails(item) {
     const modal = document.getElementById('detailModal');
     const modalBody = document.getElementById('modalBody');
+    
+    // Usar progreso de configuración weeklyProgress (permitir 0%)
+     const progressValue = weeklyProgress[item.semana]?.progreso !== undefined ? weeklyProgress[item.semana].progreso : item.progreso;
     
     modalBody.innerHTML = `
         <h2>Semana ${item.semana} - ${item.fechas}</h2>
@@ -572,53 +534,52 @@ function showDetails(item) {
         
         <h3><i class="fas fa-chart-line"></i> Progreso:</h3>
         <div class="progress-bar" style="margin: 10px 0;">
-            <div class="progress-fill" style="width: ${item.progreso}%"></div>
+            <div class="progress-fill" style="width: ${progressValue}%"></div>
         </div>
-        <p><strong>${item.progreso}% completado</strong></p>
+        <p><strong>${progressValue}% completado</strong></p>
     `;
     
     modal.style.display = 'block';
 }
 
-function showDayDetails(day, tasks) {
-    const modal = document.getElementById('detailModal');
-    const modalBody = document.getElementById('modalBody');
-    
-    const monthNames = [
-        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-        'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-    ];
-    
-    modalBody.innerHTML = `
-        <h2>${day} de ${monthNames[currentMonth]} ${currentYear}</h2>
-        <h3>Actividades programadas:</h3>
-        ${tasks.map(task => `
-            <div style="background: white; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h4>Semana ${task.semana} - ${task.fase}</h4>
-                <ul>
-                    ${task.tareas.map(tarea => `<li>${tarea}</li>`).join('')}
-                </ul>
-                <p><strong>Entregable:</strong> ${task.entregable}</p>
-            </div>
-        `).join('')}
-    `;
-    
-    modal.style.display = 'block';
-}
+
 
 function closeModal() {
     document.getElementById('detailModal').style.display = 'none';
 }
 
 function updateStats() {
-    const totalWeeks = filteredData.length;
-    const phases = [...new Set(filteredData.map(item => item.fase))];
-    const avgProgress = Math.round(filteredData.reduce((sum, item) => sum + item.progreso, 0) / totalWeeks);
+    // ========================================
+    // ESTADÍSTICAS CORREGIDAS - TOTAL: 12 SEMANAS
+    // ========================================
+    const totalWeeks = 12; // Total correcto de semanas principales (sin contar los viernes)
     
-    document.getElementById('totalWeeks').textContent = totalWeeks;
-    document.getElementById('totalPhases').textContent = phases.length;
-    document.getElementById('progressPercent').textContent = `${avgProgress}%`;
-    document.getElementById('overallProgress').style.width = `${avgProgress}%`;
+    // Contar semanas completadas basándose en los porcentajes configurados
+    const completedWeeks = Object.entries(weeklyProgress)
+        .filter(([semana, data]) => {
+            // Solo contar semanas principales (no los viernes "V-X")
+            return !semana.startsWith('V-') && data.progreso === 100;
+        }).length;
+    
+    const phases = [...new Set(filteredData.map(item => item.fase))];
+    
+    // Calcular progreso promedio basado en los porcentajes configurados
+    const mainWeeks = Object.entries(weeklyProgress).filter(([semana]) => !semana.startsWith('V-'));
+    const averageProgress = mainWeeks.reduce((sum, [, data]) => sum + data.progreso, 0) / mainWeeks.length;
+    
+    // Actualizar elementos del DOM que existen
+    const totalWeeksElement = document.getElementById('totalWeeks');
+    const totalPhasesElement = document.getElementById('totalPhases');
+    const progressPercentElement = document.getElementById('progressPercent');
+    const overallProgressElement = document.getElementById('overallProgress');
+    
+    if (totalWeeksElement) totalWeeksElement.textContent = totalWeeks;
+    if (totalPhasesElement) totalPhasesElement.textContent = phases.length;
+    
+    // Actualizar progreso usando el promedio calculado
+    const progressPercentage = Math.round(averageProgress);
+    if (progressPercentElement) progressPercentElement.textContent = `${progressPercentage}%`;
+    if (overallProgressElement) overallProgressElement.style.width = `${progressPercentage}%`;
 }
 
 function animateOnLoad() {

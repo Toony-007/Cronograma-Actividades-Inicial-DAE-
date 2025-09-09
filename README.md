@@ -20,6 +20,7 @@ Una aplicación web moderna e interactiva para la gestión y seguimiento del cro
 - 🎭 **Animaciones Suaves**: Transiciones y efectos visuales
 - 🎯 **Seguimiento de Progreso**: Estados visuales para cada semana
 - 🌈 **Barras de Scroll Personalizadas**: Diseño coherente en toda la aplicación
+- 🎪 **Controles Mejorados**: Desplegables con bordes redondeados y efectos hover/focus modernos
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -27,6 +28,18 @@ Una aplicación web moderna e interactiva para la gestión y seguimiento del cro
 - **CSS3**: Estilos avanzados con gradientes y animaciones
 - **JavaScript**: Funcionalidades interactivas
 - **Git**: Control de versiones
+
+## 🎨 Mejoras de Diseño Recientes
+
+### 🔄 Desplegables Modernizados
+- **Bordes Redondeados**: Radio de 30px para un aspecto más suave
+- **Gradientes Sutiles**: Fondo con gradiente linear para profundidad visual
+- **Sombras Mejoradas**: Box-shadow con múltiples capas para efecto flotante
+- **Efectos Interactivos**: 
+  - Hover: Elevación sutil con cambio de sombra
+  - Focus: Transformación y resaltado con color de marca
+- **Iconografía Personalizada**: Flecha SVG integrada para mejor consistencia
+- **Espaciado Optimizado**: Padding ajustado para mejor usabilidad
 
 ## 📋 Estructura del Proyecto
 

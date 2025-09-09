@@ -125,19 +125,33 @@ body {
 }
 
 .filter-select {
-    padding: 10px 15px;
-    border: 2px solid #ddd;
-    border-radius: 25px;
-    background: white;
+    padding: 12px 18px;
+    border: 2px solid #e0e6ed;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23666" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 12px;
+    padding-right: 40px;
 }
 
 .filter-select:focus {
     outline: none;
     border-color: #3498db;
-    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.4), 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.filter-select:hover {
+    border-color: #bdc3c7;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
 }
 
 .search-box {
